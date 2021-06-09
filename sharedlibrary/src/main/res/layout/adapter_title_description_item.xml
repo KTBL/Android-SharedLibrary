@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="vm"
+            type="de.ktbl.android.sharedlibrary.view.viewmodel.TitleDescriptionItemVM" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="@{v -> vm.onClick()">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{vm.title}"
+            tools:text="@tools:sample/full_names"
+            style="@style/TitleH1"/>
+
+        <TextView
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{vm.description}"
+            tools:text="Nasenausfluss ist ein Indikator für Atemwegserkrankungen. Risikofaktoren sind Transportbelastung..." />
+    </LinearLayout>
+</layout>

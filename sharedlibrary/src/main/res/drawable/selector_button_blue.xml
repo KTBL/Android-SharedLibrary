@@ -1,0 +1,24 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/button_background_blue_pressed" />
+            <corners android:radius="@dimen/radius_button" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@color/button_background_blue_focused" />
+            <corners android:radius="@dimen/radius_button" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@color/button_background_blue" />
+            <corners android:radius="@dimen/radius_button" />
+        </shape>
+    </item>
+
+</selector>

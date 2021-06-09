@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="vm"
+            type="de.ktbl.android.sharedlibrary.view.viewmodel.AdapterListablePropertyVM" />
+    </data>
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/mini_fab_margin"
+            app:backgroundTint="@color/ktbl_blue"
+            android:src="@{vm.hasBeenEdited ? @drawable/ic_undo : @drawable/ic_editable}"
+            android:visibility="@{vm.isEditable ? View.VISIBLE : View.GONE}"
+            app:fabCustomSize="@dimen/custom_fab_size_mini" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TitleH2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{vm.header}" />
+
+            <LinearLayout
+                style="@style/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="3"
+                    android:text='@{vm.content ?? " "}' />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingStart="5dp"
+                    android:text='@{vm.unit ?? " "}'
+                    android:visibility="@{vm.unit == null ? View.GONE : View.VISIBLE}" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

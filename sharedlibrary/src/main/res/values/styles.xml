@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TitleH1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">21sp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TitleH1Grey" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">21sp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/android_grey_100</item>
+    </style>
+
+    <style name="TitleH1.CAPS">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TitleH2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TitleH2.CAPS">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="content" parent="TextAppearance.MaterialComponents.Body1">
+        <!--<item name="android:textSize">14sp</item>-->
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/button_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/button_padding_vertical</item>
+        <item name="android:paddingLeft">@dimen/button_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/button_padding_horizontal</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+    </style>
+
+    <style name="Button.Blue">
+        <item name="android:background">@drawable/selector_button_blue</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BottomButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="cornerRadius">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+
+    </style>
+
+    <style name="Button.Clear">
+        <item name="android:background">#FFFFFFFF</item>
+        <item name="android:textColor">@color/ktbl_blue</item>
+        <item name="android:shadowRadius">0</item>
+        <item name="android:shadowColor">@color/transparent</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+    </style>
+
+    <style name="Button.Red">
+        <item name="android:background">@color/ktbl_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowRadius">0</item>
+        <item name="android:shadowColor">@color/transparent</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+    </style>
+
+    <style name="DefaultTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="DefaultTextView.Footer">
+        <item name="android:gravity">right</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="ContentCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardForegroundColor">@color/transparent</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="cardElevation">2dp</item>
+    </style>
+
+    <style name="ContentCardView.Small">
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="cardElevation">1dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="IndicatorCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="strokeColor">@color/android_grey_300</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardForegroundColor">@color/transparent</item>
+        <item name="cardElevation">3dp</item>
+    </style>
+
+    <style name="EmbeddedCardViewContentText" parent="Widget.AppCompat.TextView">
+        <item name="android:paddingStart">@dimen/default_padding</item>
+        <item name="android:paddingEnd">@dimen/default_padding</item>
+    </style>
+
+</resources>

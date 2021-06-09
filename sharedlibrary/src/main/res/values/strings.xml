@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SharedLibrary</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="delete">Löschen</string>
+    <string name="compare">Vergleichen</string>
+    <string name="simple_error_msg">Ups.. da ist etwas schief gelaufen.</string>
+</resources>

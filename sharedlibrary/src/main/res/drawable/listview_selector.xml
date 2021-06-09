@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_mediumAnimTime">
+
+    <item android:color="@color/listview_background_blue_activated" android:state_activated="true" />
+
+
+    <item android:color="@color/white" android:state_activated="false" />
+</selector>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="radius">0dp</dimen>
+
+    <dimen name="default_padding">5dp</dimen>
+
+    <!-- ####### Default Fab ####### -->
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- ####### Custom Mini Fab ####### -->
+    <dimen name="custom_fab_size_mini">27dp</dimen>
+    <dimen name="mini_fab_margin">3dp</dimen>
+
+    <!-- ####### Value Intent ####### -->
+    <dimen name="intent">3dp</dimen>
+
+    <!-- ####### ListViews ###### -->
+
+    <dimen name="listview_padding">16dp</dimen>
+    <dimen name="listview_padding_small">8dp</dimen>
+    <dimen name="listitem_margin">16dp</dimen>
+    <dimen name="listitem_padding">16dp</dimen>
+    <dimen name="listitem_padding_small">8dp</dimen>
+    <dimen name="listitem_subitem_padding">16dp</dimen>
+    <dimen name="listitem_subitem_padding_small">4dp</dimen>
+
+    <!-- ####### TableLayout / TableRows / TableCells ###### -->
+
+    <dimen name="table_margin">8dp</dimen>
+
+    <dimen name="tablecell_border_width">0.75dp</dimen>
+    <dimen name="tablecell_padding_vertical">4dp</dimen>
+    <dimen name="tablecell_padding_horizontal">4dp</dimen>
+
+    <!-- ####### Buttons ###### -->
+
+    <dimen name="button_padding_horizontal">16dp</dimen>
+    <dimen name="button_padding_vertical">8dp</dimen>
+    <dimen name="button_drawable_padding">8dp</dimen>
+    <dimen name="radius_button">@dimen/radius</dimen>
+
+    <!-- ####### CardViewspacing ##### -->
+
+
+</resources>

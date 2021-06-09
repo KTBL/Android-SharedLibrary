@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Hex with alpha channel: ARGB (Alpha Red Green Blue) -->
+
+
+    <!-- ###### KTBL Colors ###### -->
+
+    <color name="ktbl_blue">#FF3B4A79</color>
+    <color name="ktbl_blue_0">#FF425496</color>
+    <color name="ktbl_blue_1">#FF6477B4</color>
+    <color name="ktbl_blue_2">#FF93A0CB</color>
+    <color name="ktbl_blue_3">#FFB5BEDB</color>
+    <color name="ktbl_blue_3_5">#FFBEC6E0</color>
+    <color name="ktbl_blue_4">#FFD0D6E8</color>
+    <color name="ktbl_blue_5">#FFE0E4F0</color>
+
+    <color name="ktbl_red">#FFD6000A</color>
+    <color name="ktbl_red_1">#FFFF2D37</color>
+    <color name="ktbl_red_2">#FFFF6970</color>
+    <color name="ktbl_red_3">#FFFFA5A9</color>
+    <color name="ktbl_red_4">#FFFFCDCF</color>
+
+    <color name="ktbl_green">#FF75A003</color>
+    <color name="ktbl_green_1">#FF9BD804</color>
+    <color name="ktbl_green_2">#FFBCFB1D</color>
+    <color name="ktbl_green_3">#FFD9FD7F</color>
+    <color name="ktbl_green_4">#FFE8FEB0</color>
+
+    <color name="ktbl_yellow">#FFFBC100</color>
+    <color name="ktbl_yellow_1">#FFFFDB69</color>
+    <color name="ktbl_yellow_2">#FFFFEAA5</color>
+    <color name="ktbl_yellow_3">#FFFFF3CD</color>
+
+    <!-- ###### Android Guideline Colors ###### -->
+    <!-- http://www.google.com/design/spec/style/color.html#color-ui-color-palette -->
+
+    <color name="android_grey_50">#FAFAFA</color>
+    <color name="android_grey_100">#FFF5F5F5</color>
+    <color name="android_grey_200">#FFEEEEEE</color>
+    <color name="android_grey_300">#FFE0E0E0</color>
+    <color name="android_grey_400">#FFBDBDBD</color>
+    <color name="android_grey_500">#9E9E9E</color>
+    <color name="android_grey_600">#FF757575</color>
+    <color name="android_grey_700">#FF616161</color>
+    <color name="android_grey_800">#FF424242</color>
+    <color name="android_grey_900">#FF212121</color>
+
+    <color name="android_icon_dark">#FF848484</color>
+    <color name="android_black_overlay">#66000000</color>
+
+
+    <!-- ###### Reocurring Colors ###### -->
+
+    <color name="text_primary">@color/android_grey_800</color>
+    <color name="text_secondary">@color/android_grey_700</color>
+
+    <color name="text_primary_non_editable">@color/android_grey_500</color>
+    <color name="text_secondary_non_editable">@color/android_grey_400</color>
+
+    <color name="text_hint">@color/android_grey_500</color>
+
+    <color name="title_grey">@color/android_grey_500</color>
+
+    <color name="divider_grey">@color/android_grey_300</color>
+
+    <color name="tablecell_grey">@color/android_grey_200</color>
+    <color name="tablecell_header_blue">@color/ktbl_blue_3</color>
+    <color name="tablecell_sum_grey">@color/android_grey_300</color>
+
+
+    <color name="edittext_border_grey">@color/android_grey_400</color>
+    <color name="edittext_border_grey_pressed">@color/android_grey_700</color>
+    <color name="edittext_border_grey_focused">@color/android_grey_600</color>
+
+    <color name="button_background_blue">@color/ktbl_blue_1</color>
+    <color name="button_background_blue_pressed">@color/ktbl_blue_0</color>
+    <color name="button_background_blue_focused">@color/ktbl_blue_0</color>
+
+    <color name="button_background_red">@color/ktbl_red_1</color>
+    <color name="button_background_red_pressed">@color/ktbl_red</color>
+    <color name="button_background_red_focused">@color/ktbl_red</color>
+
+    <color name="inputfield_background_blue">@color/ktbl_blue_5</color>
+    <color name="inputfield_background_blue_pressed">@color/ktbl_blue_3</color>
+    <color name="inputfield_background_blue_focused">@color/ktbl_blue_3</color>
+
+    <color name="listview_background_blue">@color/transparent</color>
+    <color name="listview_background_blue_pressed">@color/ktbl_blue_3</color>
+    <color name="listview_background_blue_focused">@color/ktbl_blue_4</color>
+    <color name="listview_background_blue_activated">@color/ktbl_blue_4</color>
+
+    <color name="notification_successful">@color/ktbl_green_1</color>
+    <color name="notification_unsuccessful">@color/ktbl_red_1</color>
+
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+    <color name="transparent">@android:color/transparent</color>
+</resources>
